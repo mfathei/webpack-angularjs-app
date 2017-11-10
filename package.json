@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle": "webpack",
-    "bundle:prod": "webpack -p"
+    "bundle": "webpack-dev-server",
+    "bundle:prod": "webpack-dev-server -p"
   },
   "keywords": [],
   "author": "",
